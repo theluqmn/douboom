@@ -30,6 +30,10 @@ export default function App() {
                         Rank goal: Top 10
                     </h2>
                 </div>
+
+                <div class="grid grid-cols-3 gap-4">
+                    <Card title="Hack Club MicroSD Card" doubloons="100" />
+                </div>
             </div>
         </div>
     )
@@ -37,6 +41,18 @@ export default function App() {
 
 function Card(props) {
     return (
-        
+        <div class="p-4 rounded-md bg-[rgb(247,220,111)] flex flex-col items-center gap-2 hover:bg-[rgb(244,208,63)] duration-300">
+            <h1 class="text-2xl text-black">
+                {props.title}
+            </h1>
+
+            <img src="https://noras-secret-cdn.hackclub.dev/shop/microsd.png" alt="Doubloon" class="w-32 h-32 object-contain"/>
+            
+            <div class="p-2 rounded-md bg-black hover:scale-90 duration-300">
+                <p class="text-white text-center">
+                    {props.doubloons} Doubloons
+                </p>
+            </div>
+        </div>
     )
 }
