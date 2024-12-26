@@ -2,7 +2,7 @@
 
 **Designed and developed by** [Luqman](https://theluqmn.github.io/)
 
-A website listing my doubloon goals for High Seas 2024. I joined a bit late but still joined regardless.
+A website listing my doubloon goals for High Seas 2024. I joined a bit late but still joined regardless. I made this in ~1 hour or so lmao.
 
 ## Development
 
