@@ -25,6 +25,10 @@ export default function App() {
                     <h1 class="text-[rgb(241,196,15)] text-3xl">
                         Projects
                     </h1>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <ProjectCard title="Douboom" description= "A website that tells about my 2024/2025 Hack Seas journey." link="https://theluqmn.github.io/douboom" />
+                    </div>
                 </div>
 
                 <div class="pt-16 flex flex-col gap-2">
@@ -58,7 +62,19 @@ export default function App() {
 function ProjectCard(props) {
     return (
         <div>
-            
+            <div class="p-4 rounded-md bg-white flex flex-col items-start gap-2 h-full text-left">
+                <h1 class="text-2xl text-black font-semibold">
+                    {props.title}
+                </h1>
+
+                <p class="text-gray-800">
+                    {props.description}
+                </p>
+
+                <button onClick={() => window.open(props.link)} class="p-2 rounded-md bg-[rgb(247,220,111)] text-black hover:bg-black hover:text-white duration-500 mt-auto">
+                    View Project
+                </button>
+            </div>
         </div>
     )
 }
