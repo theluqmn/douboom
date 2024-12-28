@@ -27,7 +27,8 @@ export default function App() {
                     </h1>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <ProjectCard title="Douboom" description= "A website that tells about my 2024/2025 Hack Seas journey." link="https://theluqmn.github.io/douboom" />
+                        <ProjectCard title="Douboom" description= "A website that tells about my 2024/2025 Hack Seas journey." link="https://theluqmn.github.io/douboom" image="https://cloud-9u0lqspt8-hack-club-bot.vercel.app/0image.png" />
+                        <ProjectCard title="Boeing 737NG FMS" description= "A web-based simulator of the Boeing 737-800's flight management system (FMS)." link="https://theluqmn.github.io/737fms" image="https://cloud-jls4b58tn-hack-club-bot.vercel.app/0image.png" />
                     </div>
                 </div>
 
@@ -66,6 +67,8 @@ function ProjectCard(props) {
                 <h1 class="text-2xl text-black font-semibold">
                     {props.title}
                 </h1>
+
+                <img src={props.image} class="object-cover aspect-square rounded-md self-start object-left-top" />
 
                 <p class="text-gray-800">
                     {props.description}
