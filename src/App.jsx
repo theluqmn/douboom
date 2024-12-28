@@ -74,6 +74,19 @@ export default function App() {
                     </div>
                 </div>
             </div>
+
+            <footer>
+                <div class="pt-32 p-4 md:p-4 md:pt-32 lg:w-7/12 items-center mx-auto space-y-3 text-sm lg:text-base">
+                    <h1 class="text-white text-2xl">
+                        Douboom
+                    </h1>
+
+                    <p class="text-white">
+                        Designed and developed by <a href="https://theluqmn.github.io" target="_blank" class="text-[rgb(241,196,15)]" >Luqman</a>.
+                        
+                    </p>
+                </div>
+            </footer>
         </div>
     )
 }
@@ -92,7 +105,7 @@ function ProjectCard(props) {
                     {props.description}
                 </p>
 
-                <button onClick={() => window.open(props.link)} class="p-2 rounded-md bg-[rgb(247,220,111)] text-black hover:bg-black hover:text-white duration-500 mt-auto">
+                <button onClick={() => window.open(props.link)} class="p-2 rounded-md font-semibold bg-white  text-black hover:bg-black hover:text-white duration-500 mt-auto">
                     View Project
                 </button>
             </div>
