@@ -1,16 +1,23 @@
 import Doubloon from "./Doubloon"
+import githubIcon from "./github.svg"
 
 export default function App() {
     return (
         <div class>
             <header
             class="p-2 bg-white items-center flex flex-col fixed z-10 w-full duration-500">
-                <div class="lg:w-7/12 flex flex-row items-center gap-2">
-                    <img src="https://highseas.hackclub.com/doubloon.svg" alt="Doubloon" class="w-8 h-8" />
+                <div class="lg:w-7/12 flex flex-row items-center justify-between">
+                    <div class="flex flex-row items-center gap-2">
+                        <img src="https://highseas.hackclub.com/doubloon.svg" alt="Doubloon" class="w-8 h-8" />
 
-                    <h1 class="text-2xl text-black hover:font-bold duration-500">
-                        Douboom
-                    </h1>
+                        <h1 class="text-2xl text-black hover:font-bold duration-500">
+                            Douboom
+                        </h1>
+                    </div>
+
+                    <a href="https://github.com/theluqmn/douboom" target="_blank">
+                        <img src={githubIcon} class="w-6 h-6" />
+                    </a>
                 </div>
             </header>
 
@@ -38,7 +45,7 @@ export default function App() {
                     </div>
                 </div>
 
-                <div class="pt-16 flex flex-col gap-4">
+                <div class="pt-32 flex flex-col gap-4">
                     <h1 class="text-[rgb(241,196,15)] text-3xl">
                         Items to redeem
                     </h1>
