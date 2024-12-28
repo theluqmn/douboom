@@ -33,7 +33,7 @@ export default function Doubloon() {
                 <h1 class="text-2xl text-white">
                     Doubloons
                 </h1>
-                <p class="text-3xl text-[rgb(241,196,15)]">
+                <p class="text-4xl text-[rgb(241,196,15)]">
                     {doubloonData().doubloons}
                 </p>
             </div>
@@ -42,7 +42,7 @@ export default function Doubloon() {
                 <h1 class="text-2xl text-white">
                     Rank
                 </h1>
-                <p class="text-3xl text-[rgb(241,196,15)]">
+                <p class="text-4xl text-[rgb(241,196,15)]">
                     No. {doubloonData().rank}
                 </p>
             </div>

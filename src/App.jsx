@@ -33,6 +33,9 @@ export default function App() {
                 </p>
 
                 <Doubloon />
+                <p class="text-[rgb(235,235,235)] text-sm">
+                    Real-world count of doubloons and rank. Refresh to update.
+                </p>
 
                 <div class="pt-64 flex flex-col gap-4">
                     <h1 class="text-[rgb(241,196,15)] text-3xl">
