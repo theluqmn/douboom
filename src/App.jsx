@@ -42,6 +42,10 @@ export default function App() {
                         Projects
                     </h1>
 
+                    <p class="text-[rgb(235,235,235)] text-base">
+                        All the projects I worked on specifically for High Seas 2024 (the doubloon grind)
+                    </p>
+
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <ProjectCard title="Douboom" description= "A website that tells about my 2024/2025 Hack Seas journey." link="https://theluqmn.github.io/douboom" image="https://cloud-9u0lqspt8-hack-club-bot.vercel.app/0image.png" />
                         <ProjectCard title="Boeing 737NG FMS" description= "A web-based simulator of the Boeing 737-800's flight management system (FMS)." link="https://theluqmn.github.io/737fms" image="https://cloud-jls4b58tn-hack-club-bot.vercel.app/0image.png" />
@@ -52,16 +56,6 @@ export default function App() {
                     <h1 class="text-[rgb(241,196,15)] text-3xl">
                         Items to redeem
                     </h1>
-
-                    <div class="flex flex-col gap-2">
-                        <h2 class="text-gray-100 text-xl">
-                            Doubloon goal: 3,000
-                        </h2>
-
-                        <h2 class="text-gray-100 text-xl">
-                            Rank goal: Top 10
-                        </h2>
-                    </div>
 
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <DoubloonCard title="Hack Club MicroSD Card" doubloons="32" image="https://noras-secret-cdn.hackclub.dev/shop/microsd.png/" />
@@ -83,7 +77,7 @@ export default function App() {
 
                     <p class="text-white">
                         Designed and developed by <a href="https://theluqmn.github.io" target="_blank" class="text-[rgb(241,196,15)]" >Luqman</a>.
-                        
+                        Deployed on GitHub Pages, built with JavaScript and Solidjs. Visit the repo on <a href="https://github.com/theluqmn/douboom" target="_blank" class="text-[rgb(241,196,15)]">GitHub</a>.
                     </p>
                 </div>
             </footer>
@@ -121,7 +115,7 @@ function DoubloonCard(props) {
             </h1>
 
             <img src={props.image} alt="Doubloon" class="w-32 h-32 object-contain hover:scale-105 duration-700" />
-            
+
             <div class="p-2 rounded-md bg-[rgb(247,220,111)] text-black hover:bg-black hover:text-white duration-500 mt-auto">
                 <p class="text-center">
                     {props.doubloons} Doubloons

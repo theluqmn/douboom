@@ -46,6 +46,16 @@ export default function Doubloon() {
                     No. {doubloonData().rank}
                 </p>
             </div>
+
+            <div class="flex flex-col gap-2">
+                <h2 class="text-gray-100 text-xl">
+                    Doubloon goal: 3,000
+                </h2>
+
+                <h2 class="text-gray-100 text-xl">
+                    Rank goal: Top 10
+                </h2>
+            </div>
         </div>
     )
 }
