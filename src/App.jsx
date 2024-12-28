@@ -25,6 +25,8 @@ export default function App() {
                     of this opportunity and prove my competence.
                 </p>
 
+                <Doubloon />
+
                 <div class="pt-64 flex flex-col gap-4">
                     <h1 class="text-[rgb(241,196,15)] text-3xl">
                         Projects
