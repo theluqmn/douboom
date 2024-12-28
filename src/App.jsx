@@ -6,7 +6,7 @@ export default function App() {
         <div class>
             <header
             class="p-2 bg-white items-center flex flex-col fixed z-10 w-full duration-500">
-                <div class="lg:w-7/12 flex flex-row items-center justify-between">
+                <div class="w-full lg:w-7/12 flex flex-row items-center justify-between">
                     <div class="flex flex-row items-center gap-2">
                         <img src="https://highseas.hackclub.com/doubloon.svg" alt="Doubloon" class="w-8 h-8" />
 
