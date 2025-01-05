@@ -1,3 +1,5 @@
+import { Text } from "@theluqmn/propulsion-ui"
+
 import Doubloon from "./Doubloon"
 import githubIcon from "./github.svg"
 
@@ -9,6 +11,8 @@ export default function App() {
                 <div class="w-full lg:w-7/12 flex flex-row items-center justify-between">
                     <div class="flex flex-row items-center gap-2">
                         <img src="https://highseas.hackclub.com/doubloon.svg" alt="Doubloon" class="w-8 h-8" />
+
+                        <Text text="Douboom" />
 
                         <h1 class="text-2xl text-black hover:font-bold duration-500">
                             Douboom
